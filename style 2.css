@@ -1,0 +1,145 @@
+* {
+    margin: 0px;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* banner section here  */
+header{
+    
+}
+.banner-container{
+    background-image: url(Assets/new-year-new-me/banner2.png);background-repeat: no-repeat;
+    background-size: 100%;
+    height: 809px;
+}
+.banner-info{
+    text-align: right;
+    padding: 216px 230px 365px 845px;
+}
+.banner-title{
+    color: #151414;text-align: right;font-size: 65px; font-style: normal;font-weight: 700;display: flex;flex-direction: column;justify-content: flex-end;flex-shrink: 0;
+}
+.banner-des{
+    color:#444343; text-align: right;font-size: 16px;
+    font-style: normal;font-weight: 400;line-height: 26px;
+}
+.banner-btn{
+    border: none;border-radius: 5px; background: #F15B22; color: #FFF;
+    text-align: right;font-size: 15px; font-weight: 600;padding: 15px;
+}
+/* about section here  */
+.about-container{
+    display: flex;align-items: center;justify-content:space-evenly;margin: 140px 277px 200px 230px;
+}
+.about-img{
+    
+}
+.about-info{
+    max-width: 416px;margin-bottom: 20px;
+}
+.about-title{
+    color: #151414;
+        font-size: 40px;
+        font-weight: 700;
+        max-width: 288px;
+}
+.about-des{
+    color: #444343;
+}
+.about-info > ul li{
+    text-align:start;color: #444343;
+}
+/* plans start here  */
+.plans-container{
+    display: flex;align-items: center;justify-content:space-around;margin: 0px 100px 100px 100px;
+}
+.my-plans{
+    color:#151414;
+        font-size: 40px;
+        font-weight: 700;
+        text-align: center;margin-bottom: 50px;
+}
+.plans-block{
+    align-items: center;text-align: center;
+}
+.plans-title{
+    color:#151414;
+        text-align: center;
+        font-size: 30px;
+        font-weight: 700;
+}
+.plans-info{
+    color: #737272;
+        text-align: center;
+        font-size: 25px;
+        font-weight: 500;
+}
+.plans-title,.plans-info,.plans-img{
+    margin: 10px;
+}
+/* contact ino  */
+.contact-container{
+    background-image: url(Assets/new-year-new-me/watch.png);
+    background-repeat: no-repeat;width: 1140px;
+    height: 300px;flex-shrink: 0;margin-left: 400px;margin-bottom: 150px;
+}
+.con-info{
+    background-image: url(Assets/new-year-new-me/gradient2.png);
+    background-repeat: no-repeat;border-radius: 8px;
+    background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0.00) 100%);
+    width: 1140px;height: 300px;flex-shrink: 0;text-align:left;justify-items: center;
+}
+.con-title{
+    color: #FFF;
+        font-size: 40px;
+        font-weight: 700;display: flex;
+            width: 459px;
+            flex-direction: column;
+            flex-shrink: 0;margin-left: 64px;padding-top: 60px;
+}
+.con-btn{
+    border-radius: 5px;background: #FFF;width: 160px;
+    height: 64px;flex-shrink: 0;color: #F15B22;
+    font-size: 15px;font-weight: 600;margin-left: 64px;border: none;
+}
+/* footer here  */
+footer{
+    background: #151414;height: 577px;width: 100%;
+}
+.footer-container{
+    display: flex;justify-content: space-evenly;padding-top: 130px;
+}
+.footer-info h2{
+    color: #F8F8F8;
+        font-size: 45px;
+        font-weight: 700;
+}
+.footer-info h3{
+    color: #FFF;
+        font-size: 25px;
+        font-weight: 600;
+}
+.footer-info p{
+    color: #FFF;
+        font-size: 16px;
+        font-weight: 400;
+}
+.footer-info{
+    width: 485px;
+}
+.fot-btn{
+    border-radius: 5px;
+        background: #FFF;
+        width: 160px;
+        height: 64px;
+        flex-shrink: 0;
+        color: #F15B22;
+        font-size: 15px;
+        font-weight: 600;
+        border: none;
+        margin-top: 16px;
+}
+.f-icon{
+    padding-right: 20px;
+}
