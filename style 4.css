@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* nav here  */
+.nav-title{
+    color: #3A3A3A;
+    font-size: 1.2vw;
+    font-weight: 700;
+    width: 12.27vw;
+}
+.nav-ul{
+    color: #3A3A3A;
+    font-size: .8vw;
+    font-weight: 600;
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    gap:1.7vw;
+}
+.mag{
+    width: 1.2vw;
+    height: 1.2vw;
+}
+.shop{
+    width: 1.8vw;
+    height: 1.8vw;
+}
+nav{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:25vw ;
+    align-items: center;
+    margin: 4.4vw 6vw 0;
+}
+/* banner here  */
+.banner-img{
+    background-image: url(Assets/influencer-gears/images/Circle\ design.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 26vw 26vw;
+    margin: 2.6vw  7vw 3.5vw 8vw;
+    box-sizing: border-box;
+}
+.b-img{
+    width: 22.2vw;
+    height: 21vw;
+    position: center;
+    padding: 3.5vw 1.6vw 4.6vw 0;
+}
+.b-info{
+    margin-top: 7.32vw;
+    width: 29vw;
+    margin-left: 6vw;
+    margin-right: 0;
+    box-sizing: border-box;
+}
+.b-title{
+    color: #3A3A3A;
+    font-size: 2.6vw;
+    font-weight: 700;
+    margin-bottom: .8vw;
+}
+.b-text{
+    color: #3A3A3A;
+    font-size: 0.8vw;
+    font-weight: 600;
+    margin-bottom: .8vw;
+}
+.b-btn{
+    border-radius: 41px;
+    background: #E02C6D;
+    padding: .5vw 1.2vw;
+    border: none;
+}
+.banner-container{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row-reverse;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+}
+/* section icons here  */
+.icons-container{
+    box-sizing: border-box;
+    margin: 0 8.33vw 5.1vw 8.33vw;
+    display: flex;
+    justify-content: space-around;
+}
+/* section collection here  */
+.c-title{
+    color: #3A3A3A;
+    font-size: 28px;
+    font-weight: 600;
+}
